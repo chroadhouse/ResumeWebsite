@@ -1,104 +1,170 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlie Roadhouse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>My Resume</h1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Interests</li>
-                <li>Portfolio</li>
-                <li>Education</li>
-                <li>Skills</li>
-                <li>Extra Curicclar</li>
-                <li>Work Experience</li>
-                <li>CV</li>
-                <li>Contact me</li>
-            </ul>
-        </nav>
-    </header>
-    <div class="Home">
-        <h2>Charlie Roadhouse</h2>
-        <img src="Images/myface.jpg" alt="This is my face" width="400" height="500">
+
+<body class="w3-light-grey">
+
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+
+            <!-- Left Column -->
+            <div class="w3-third">
+
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container">
+                        <img src="assests/img/tempImage.png" style="width:100%" alt="Avatar">
+                        <div class="w3-display-bottomleft w3-container w3-text-black">
+
+                        </div>
+                    </div>
+                    <div class="w3-container">
+                        <h2>Charlie Roadhouse</h2>
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Masters student
+                            and software developer</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Manchester, UK</p>
+                        <p><i
+                                class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ch.roadhouse@gmail.com
+                        </p>
+                        <p><a href="https://www.linkedin.com/in/charlie-roadhouse-887731193/"><i
+                                    class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>LinkedIn</p>
+                        </a>
+                        <p><a href="https://github.com/chroadhouse"><i
+                                    class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>GitHub</p></a>
+
+                        <hr>
+
+                        <p class="w3-large"><b><i
+                                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                        <p>Python</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+                        </div>
+                        <p>Jupiter Notebooks</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                                <div class="w3-center w3-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>java</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+                        </div>
+                        <p>Machine Learning</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+                        </div>
+                        <br>
+
+                        <!-- Some momre code going to go here about a portfolio -->
+                        <p class="w3-large w3-text-theme"><b><i
+                                    class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Portfolio</b></p>
+
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
+                    </h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Research assistant / MMU</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2023 -
+                            <span class="w3-tag w3-teal w3-round">Current</span>
+                        </h6>
+                        <p>Using python to web scrape, text analysis and run machine learning algorithms on surveyed
+                            data from peers about software engineering in higher education.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Programmer creating educational resources / MMU RISE</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2022 - Jan 2023
+                        </h6>
+                        <p>Creating educational resources for MMU Rise's <em>how to be a data scientist course</em>
+                            using Jupiter notebooks, pandas, numpy and matplotlib to show students how to do basic data
+                            analysis in python. Was also on camera to provide walkthroughs for the course as well as
+                            offer in person support.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Peer Assisted Learner / MMU</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - Jun 2022
+                        </h6>
+                        <p>Help facillitate learning for first year computer science students, encouring conversations
+                            and showing coding tutorials to students. </p><br>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>MSc in Artificial Intelligence and Data Science / MMU</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022 - Sep 2023
+                        </h6>
+                        <p>Machine learning, both supervised and unsupervised in python, AI principles, Expert systems
+                            in prolog, algorithms and data structures and the ethics of AI.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>BSc (Honors) Computer Science / MMU</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 - Jun 2022
+                        </h6>
+                        <p>Programming in java, basic web devllopment, algorithms and data structrues, mobile
+                            applications using react and a final year project using Reinforcment learning</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <!-- End Right Column -->
+            </div>
+
+            <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
     </div>
-    <div class ="About Me">
-        <h2>About me</h2>
-        <!--Make it like a trading card - so you have your 
-        name and age and other easy things maybe 
-        -->
-        <ul>
-            <li><h4>Name - Charlie George Roadhouse (He/Him)</h4></li>
-            <li><h4>Age - 20</h4></li>
-            <li><h4>Aspiring Software Developer</h4></li>
-        </ul>
-    </div>
-    <div class="Interests">
-        <h2>Interests</h2>
-    </div>
-    <div class="Portfolio">
-        <h2>Portfolio</h2>
-    </div>
-    <div class="Education">
-        <h2>Education</h2>
-        <h3>High School</h3>
-        <h5>St James CofE High School : 2012 - 2017</h5>
-        <ul>
-            <li>Maths - 6 (B)</li>
-            <li>English Language - 4 (C)</li>
-            <li>English Literature - 6 (B)</li>
-            <li>Computer Science - A</li>
-            <li>Chemistry - B</li>
-            <li>Psychology - B</li>
-            <li>Biology - B</li>
-        </ul>
-        <p>Through school I knew that I wanted to go into computer science </p>
-        <h3>College</h3>
-        <h5>Runshaw College : 2017 - 2019</h5>
-        <ul>
-            <li>Chemistry - D</li>
-            <li>Psychology - C</li>
-            <li>Computer Science - B</li>
-        </ul>
-        <h3>University</h3>
-        <h5>Manchester Metropoliton University : 2019 - 2022</h5>
-        <h3>Other Education</h3>
-        <p>Crest Award, Bedras, Python seminar, Smart home</p>
-    </div>
-    <div class="Skills">
-        <h2>Skills</h2>
-        <h3>Programming Languages</h3>
-        <p>I think this could be a line with different percenategs </p>
-    </div>
-    <div class="Experience">
-        <h2>Work Experience</h2>
-        <h3>PAL Leader</h3>
-        <h4></h4>
-    </div>
-    <div  class="Contact me">
-        <h2>Contact Me</h2>
-        <h3>Lets stay in touch</h3>
-        <h4>Send me a message and i'll get back to you ASAP</h4>
-        <form method="POST">
-            <label>Name<input type="text"></label>
-            <label>Email <input type="email"></label>
-            <label>Subject<input type="text"></label>
-            <label>Message<textarea cols="30" rows="10"></textarea></label>
-        </form>
-        <h4>Or follow me on any of my social networks</h4>
-        <ul>
-            <li><a href="#" target="_blank">Twitter</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/ch_roadhouse/" target="_blank">Instagram</a></li>
-        </ul>
-    </div>
-    <footer class="footer">
+
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+        <p>Find me on social media.</p>
+        <i class="fa fa-github w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
 
     </footer>
+
 </body>
+
 </html>
